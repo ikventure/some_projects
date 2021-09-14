@@ -1,0 +1,13 @@
+{% extends "learning_logs/base.html" %}
+
+{% block page_header %}
+  <div class="jumbotron">
+      <h1 class="display-3">记录你的学习过程</h1>
+
+      <p class="lead">制作您自己的学习日志，并记录您正在学习的主题列表。
+        每当您学习有关某个主题的新知识时，请创建一个条目总结您所学的内容。</p>
+
+      <a class="btn btn-lg btn-primary" href="{% url 'users:register' %}"
+          role="button">注册 &raquo;</a>
+  </div>
+{% endblock page_header %}
